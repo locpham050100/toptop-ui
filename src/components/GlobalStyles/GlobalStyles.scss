@@ -3,10 +3,16 @@
 
 :root {
     --primary: #9900cc;
+
+    // default layout
+    --default-layout-header-height: 6rem;
+    --default-layout-width: 115rem;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
